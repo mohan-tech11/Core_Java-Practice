@@ -50,16 +50,16 @@ public class InterfaceClass{
 
         //add method
 
-        // A obj=(int i,int j)->{ // even you don't need to specify the data type of parameters, it will be inferred from the functional interface
-        //         return i+j;  //even you don't need to write return statement, it will be inferred from the functional interface
-        //     };    
-//          int result=obj.add(18,23);
-//             System.out.println(result);
-//     }
-// }     
-            
-            A obj=(i,j)->i+j;  
-        int result=obj.add(18,23);
+        A obj=(int i,int j)->{ // even you don't need to specify the data type of parameters, it will be inferred from the functional interface
+                return i+j;  //even you don't need to write return statement, it will be inferred from the functional interface
+            };    
+         int result=obj.add(25,23);
             System.out.println(result);
     }
-}
+}     
+            
+//             A obj=(i,j)->i+j;  
+//         int result=obj.add(18,23);
+//             System.out.println(result);
+//     }
+// }
