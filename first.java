@@ -80,9 +80,12 @@ public class first{
 // }
 
 // for loop
- for(int i=1;i<=10;i++){
-        System.out.println("Mahadev");
-    }
+//  for(int i=1;i<=10;i++){
+//         System.out.println("Mahadev");
+//     }
+// }
+// }
+
 // for(int i=1;i<=7;i++){
 //         System.out.println("Day "+i);
 //         for(int j=1;j<=9;j++){
@@ -91,16 +94,14 @@ public class first{
 
 //     }
 // }
+int n=5;
+int m=5;
+
+for (int i=1;i<=n;i++){
+        for(int j=1;j<=m;j++){
+            System.out.println (i*j);
+        }
+
+    }
 }
 }
-// int n=5;
-// int m=5;
-
-// for (int i=1;i<=n;i++){
-//         for(int j=1;j<=m;j++){
-//             System.out.println (i*j);
-//         }
-
-//     }
-// }
-// }
