@@ -1,5 +1,5 @@
 public class first{
-    public static void main(String[] args){
+    public static void main(String args[]){
         
         //if else statement
     // int a = 10;
@@ -44,13 +44,14 @@ public class first{
 // }   
     
     //while loop
-//     int i=1;
-//     while(i<=10){
-//         System.out.println("hello "+i);
-//         i++;
-//     }
-//    System.out.println("Loop finished"+i);
-    
+    int i=1;
+    while(i<=10){
+        System.out.println("hello "+i);
+        i++;
+    }
+   System.out.println("Loop finished "+i);
+}
+}
 //nested while loop
 // int i=1;
 // while(i<=5){
@@ -94,14 +95,14 @@ public class first{
 
 //     }
 // }
-int n=5;
-int m=5;
+// int n=5;
+// int m=5;
 
-for (int i=1;i<=n;i++){
-        for(int j=1;j<=m;j++){
-            System.out.println (i*j);
-        }
+// for (int i=1;i<=n;i++){
+//         for(int j=1;j<=m;j++){
+//             System.out.println (i*j);
+//         }
 
-    }
-}
-}
+//     }
+// }
+// }
