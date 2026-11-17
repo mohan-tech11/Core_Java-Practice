@@ -4,20 +4,21 @@ public class first{
         //if else statement
     int a = 10;
     int result=0;
-    if(a%2==0){
-        result=25;
-    }
-    else{
-        result=30;
-    }
+//     if(a%2==0){
+//         result=25;
+//     }
+//     else{
+//         result=30;
+//     }
+//     System.out.println(result);
+// }
+// }
+
+//    we can also write the below code in a single line using ternary operator
+    result=a%2==0 ? 20 : 30;
     System.out.println(result);
 }
 }
-
-//    we can also write the below code in a single line using ternary operator
-    // result=a%2==0 ? 25 : 30;
-    // System.out.println(result);
-    //  System.out.println(result);
 
 //switch case statement
 // int b=7;
