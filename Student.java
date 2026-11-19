@@ -10,12 +10,12 @@ public class Student {
 public static void main(String[] args) {
 
     // Creating an object of the Calculator class
-    int num1 = 10;
+    int num1 = 15;
     int num2 = 20;
 
     Calculator cal = new Calculator();
 
-    int result = cal.add(num1, num2);
+    double result = cal.add(num1, num2);
 
 System.out.println("Addition: " + result);
 }
