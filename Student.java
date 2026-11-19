@@ -90,8 +90,8 @@ public static void main(String[] args) {
 Calculator cal = new Calculator();
 
     // int r1 = cal.add(10, 20);
-    // int r1 = cal.add(10, 20, 30);
-    double r1 = cal.add(10, 20);
+    int r1 = cal.add(10, 20, 30);
+    // double r1 = cal.add(10, 20);
     System.out.println("Addition: " + r1);
 }
 
