@@ -4,20 +4,20 @@ public class first{
         //if else statement
     int a = 10;
     String result=null;
-//     if(a%2==0){
-//         result="Even";
-//     }
-//     else{
-//         result="Odd";
-//     }
-//     System.out.println(result);
+    if(a%2==0){
+        result="Even";
+    }
+    else{
+        result="Odd";
+    }
+    System.out.println(result);
 // }
 // }
 
 
 //    we can also write the below code in a single line using ternary operator
-    result=a%2==0 ?  "number is Even": "number is Odd";
-    System.out.println(result);
+    // result=a%2==0 ?  "number is Even": "number is Odd";
+    // System.out.println(result);
 }
 }
 
