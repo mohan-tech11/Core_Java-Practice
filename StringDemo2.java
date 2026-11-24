@@ -4,10 +4,10 @@ public class StringDemo2{
         String name="Mohan";
         name=name+"Naik";
 
-        System.out.println("Hello"+name);
+        System.out.println("Hello "+name);
 
         String s1="Mohan";
-        String s2="Mohan";
+        String s2="naman";
         System.out.println(s1==s2);
     }
 }
