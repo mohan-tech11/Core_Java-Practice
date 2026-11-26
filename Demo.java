@@ -61,20 +61,20 @@ class human{
 public class Demo{
     public static void main(String args[]){
         human h=new human();
+
         human h1=new human();
-        h1.setAge(22);
-        h1.setName("Naman");
+
+       h1.setAge(24);
+        h1.setName("naman");
         h1.setAdress("Pune");
-        h1.setSalary(25000);
+         h1.setSalary(24000);
 
-
-        
         // h.setAge(20);
         // h.setName("Mohan");
         // h.setAdress("sirsi");
         //  h.setSalary(10000);
+          
           System.out.println("Age:"+h.getAge()+ " Name:"+h.getName()+" Adress:"+h.getAdress()+" Salary:"+h.getSalary()); // calling getter using constructor
-         
 
                   System.out.println("Age:"+h1.getAge()+ " Name:"+h1.getName()+" Adress:"+h1.getAdress()+" Salary:"+h1.getSalary()); // calling getter using constructor
 

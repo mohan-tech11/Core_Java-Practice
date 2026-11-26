@@ -1,4 +1,6 @@
 
+
+
 class A{
     public void show (){
         System.out.println("Class A");
@@ -22,10 +24,10 @@ public class DynamicMethodDisfatch{
         A obj=new A();
         obj.show();
 
-        obj=new B();
+         obj=new B();
         obj.show();
 
-        obj=new C();
+       obj=new C();
         obj.show();
 
     }
