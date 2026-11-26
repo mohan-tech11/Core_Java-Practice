@@ -7,13 +7,13 @@ class human{
     private int salary;
 
 
-    // public human()//Default constructor
-    // {
-    //     age=21;
-    //     name="Mohan";
-    //     adress="sirsi";
-    //     salary=10000;
-    // } 
+    public human()//Default constructor
+    {
+        age=21;
+        name="Mohan";
+        adress="sirsi";
+        salary=10000;
+    } 
     public human(int a, String n, String ad, int sal)//parameterized constructor
 {
     age=a;
@@ -60,8 +60,12 @@ class human{
     
 public class Demo{
     public static void main(String args[]){
-        human h=new human(21, "Mohan" , "sirsi", 24000);
-        human h1=new human(22, "Naman" , "Pune", 20000);
+        human h=new human();
+        human h1=new human();
+        h1.setAge(22);
+        h1.setName("Naman");
+        h1.setAdress("Pune");
+        h1.setSalary(25000);
 
 
         
