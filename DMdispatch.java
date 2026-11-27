@@ -19,7 +19,7 @@ class C extends A{
 }
 
 // Dynamic Method Disfatch
-public class DynamicMethodDisfatch{
+public class DMdispatch{
     public static void main(String args[]){
         A obj=new A();
         obj.show();

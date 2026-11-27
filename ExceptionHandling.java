@@ -3,7 +3,7 @@ public class ExceptionHandling{
         int a=10;
         int b=0;
         int arr[]={1,2,3,4,5};
-        String str=null;
+        String str="Mohan Naik";
         try{
             b=20/a;
             System.out.println(arr[4]);
