@@ -1,8 +1,10 @@
-public class ExceptionHandling{
+
+//ExceptionHandling
+public class ExHand{
     public static void main(String args[]){
         int a=10;
         int b=0;
-        int arr[]={1,2,3,4,5};
+        int arr[]={1,2,3,4};
         String str="Mohan Naik";
         try{
             b=20/a;
@@ -13,11 +15,11 @@ public class ExceptionHandling{
 
         }
         catch(ArithmeticException e){
-            System.out.println("Arithmetic Exception occured" + e);
+            System.out.println("Arithmetic Exception occured " + e);
         }
-        catch(ArrayIndexOutOfBoundsException e){
-            System.out.println("ArrayIndexOutOfBounds Exception occured" + e);
-        }
+        // catch(ArrayIndexOutOfBoundsException e){
+        //     System.out.println("ArrayIndexOutOfBounds Exception occured " + e);
+        // }
 
         catch(Exception e){
             System.out.println("Exception occured " + e);
